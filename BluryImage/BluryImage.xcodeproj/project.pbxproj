@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FE6D3921F8183B00D4F6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE6D3821F8183B00D4F6A9 /* AppDelegate.swift */; };
+		66FE6D3B21F8183B00D4F6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE6D3A21F8183B00D4F6A9 /* ViewController.swift */; };
+		66FE6D3D21F8184900D4F6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FE6D3C21F8184900D4F6A9 /* Assets.xcassets */; };
+		66FE6D4021F8184900D4F6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FE6D3E21F8184900D4F6A9 /* Main.storyboard */; };
+		66FE6D4C21F8184A00D4F6A9 /* BluryImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE6D4B21F8184A00D4F6A9 /* BluryImageTests.swift */; };
+		66FE6D5721F8184A00D4F6A9 /* BluryImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE6D5621F8184A00D4F6A9 /* BluryImageUITests.swift */; };
+		66FE6D6621F8192F00D4F6A9 /* Image in Resources */ = {isa = PBXBuildFile; fileRef = 66FE6D6521F8192E00D4F6A9 /* Image */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FE6D4821F8184A00D4F6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FE6D2D21F8183B00D4F6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FE6D3421F8183B00D4F6A9;
+			remoteInfo = BluryImage;
+		};
+		66FE6D5321F8184A00D4F6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FE6D2D21F8183B00D4F6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FE6D3421F8183B00D4F6A9;
+			remoteInfo = BluryImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66FE6D3521F8183B00D4F6A9 /* BluryImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluryImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE6D3821F8183B00D4F6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66FE6D3A21F8183B00D4F6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66FE6D3C21F8184900D4F6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66FE6D3F21F8184900D4F6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66FE6D4121F8184900D4F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FE6D4221F8184900D4F6A9 /* BluryImage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluryImage.entitlements; sourceTree = "<group>"; };
+		66FE6D4721F8184A00D4F6A9 /* BluryImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluryImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE6D4B21F8184A00D4F6A9 /* BluryImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluryImageTests.swift; sourceTree = "<group>"; };
+		66FE6D4D21F8184A00D4F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FE6D5221F8184A00D4F6A9 /* BluryImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluryImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE6D5621F8184A00D4F6A9 /* BluryImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluryImageUITests.swift; sourceTree = "<group>"; };
+		66FE6D5821F8184A00D4F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FE6D6521F8192E00D4F6A9 /* Image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Image; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FE6D3221F8183B00D4F6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE6D4421F8184A00D4F6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE6D4F21F8184A00D4F6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FE6D2C21F8183B00D4F6A9 = {
+			isa = PBXGroup;
+			children = (
+				66FE6D3721F8183B00D4F6A9 /* BluryImage */,
+				66FE6D4A21F8184A00D4F6A9 /* BluryImageTests */,
+				66FE6D5521F8184A00D4F6A9 /* BluryImageUITests */,
+				66FE6D3621F8183B00D4F6A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FE6D3621F8183B00D4F6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FE6D3521F8183B00D4F6A9 /* BluryImage.app */,
+				66FE6D4721F8184A00D4F6A9 /* BluryImageTests.xctest */,
+				66FE6D5221F8184A00D4F6A9 /* BluryImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FE6D3721F8183B00D4F6A9 /* BluryImage */ = {
+			isa = PBXGroup;
+			children = (
+				66FE6D6521F8192E00D4F6A9 /* Image */,
+				66FE6D3821F8183B00D4F6A9 /* AppDelegate.swift */,
+				66FE6D3A21F8183B00D4F6A9 /* ViewController.swift */,
+				66FE6D3C21F8184900D4F6A9 /* Assets.xcassets */,
+				66FE6D3E21F8184900D4F6A9 /* Main.storyboard */,
+				66FE6D4121F8184900D4F6A9 /* Info.plist */,
+				66FE6D4221F8184900D4F6A9 /* BluryImage.entitlements */,
+			);
+			path = BluryImage;
+			sourceTree = "<group>";
+		};
+		66FE6D4A21F8184A00D4F6A9 /* BluryImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				66FE6D4B21F8184A00D4F6A9 /* BluryImageTests.swift */,
+				66FE6D4D21F8184A00D4F6A9 /* Info.plist */,
+			);
+			path = BluryImageTests;
+			sourceTree = "<group>";
+		};
+		66FE6D5521F8184A00D4F6A9 /* BluryImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66FE6D5621F8184A00D4F6A9 /* BluryImageUITests.swift */,
+				66FE6D5821F8184A00D4F6A9 /* Info.plist */,
+			);
+			path = BluryImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FE6D3421F8183B00D4F6A9 /* BluryImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE6D5B21F8184A00D4F6A9 /* Build configuration list for PBXNativeTarget "BluryImage" */;
+			buildPhases = (
+				66FE6D3121F8183B00D4F6A9 /* Sources */,
+				66FE6D3221F8183B00D4F6A9 /* Frameworks */,
+				66FE6D3321F8183B00D4F6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluryImage;
+			productName = BluryImage;
+			productReference = 66FE6D3521F8183B00D4F6A9 /* BluryImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FE6D4621F8184A00D4F6A9 /* BluryImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE6D5E21F8184A00D4F6A9 /* Build configuration list for PBXNativeTarget "BluryImageTests" */;
+			buildPhases = (
+				66FE6D4321F8184A00D4F6A9 /* Sources */,
+				66FE6D4421F8184A00D4F6A9 /* Frameworks */,
+				66FE6D4521F8184A00D4F6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FE6D4921F8184A00D4F6A9 /* PBXTargetDependency */,
+			);
+			name = BluryImageTests;
+			productName = BluryImageTests;
+			productReference = 66FE6D4721F8184A00D4F6A9 /* BluryImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66FE6D5121F8184A00D4F6A9 /* BluryImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE6D6121F8184A00D4F6A9 /* Build configuration list for PBXNativeTarget "BluryImageUITests" */;
+			buildPhases = (
+				66FE6D4E21F8184A00D4F6A9 /* Sources */,
+				66FE6D4F21F8184A00D4F6A9 /* Frameworks */,
+				66FE6D5021F8184A00D4F6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FE6D5421F8184A00D4F6A9 /* PBXTargetDependency */,
+			);
+			name = BluryImageUITests;
+			productName = BluryImageUITests;
+			productReference = 66FE6D5221F8184A00D4F6A9 /* BluryImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FE6D2D21F8183B00D4F6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = adam;
+				TargetAttributes = {
+					66FE6D3421F8183B00D4F6A9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					66FE6D4621F8184A00D4F6A9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 66FE6D3421F8183B00D4F6A9;
+					};
+					66FE6D5121F8184A00D4F6A9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 66FE6D3421F8183B00D4F6A9;
+					};
+				};
+			};
+			buildConfigurationList = 66FE6D3021F8183B00D4F6A9 /* Build configuration list for PBXProject "BluryImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FE6D2C21F8183B00D4F6A9;
+			productRefGroup = 66FE6D3621F8183B00D4F6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FE6D3421F8183B00D4F6A9 /* BluryImage */,
+				66FE6D4621F8184A00D4F6A9 /* BluryImageTests */,
+				66FE6D5121F8184A00D4F6A9 /* BluryImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FE6D3321F8183B00D4F6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE6D6621F8192F00D4F6A9 /* Image in Resources */,
+				66FE6D3D21F8184900D4F6A9 /* Assets.xcassets in Resources */,
+				66FE6D4021F8184900D4F6A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE6D4521F8184A00D4F6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE6D5021F8184A00D4F6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FE6D3121F8183B00D4F6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE6D3B21F8183B00D4F6A9 /* ViewController.swift in Sources */,
+				66FE6D3921F8183B00D4F6A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE6D4321F8184A00D4F6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE6D4C21F8184A00D4F6A9 /* BluryImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE6D4E21F8184A00D4F6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE6D5721F8184A00D4F6A9 /* BluryImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FE6D4921F8184A00D4F6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FE6D3421F8183B00D4F6A9 /* BluryImage */;
+			targetProxy = 66FE6D4821F8184A00D4F6A9 /* PBXContainerItemProxy */;
+		};
+		66FE6D5421F8184A00D4F6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FE6D3421F8183B00D4F6A9 /* BluryImage */;
+			targetProxy = 66FE6D5321F8184A00D4F6A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66FE6D3E21F8184900D4F6A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FE6D3F21F8184900D4F6A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66FE6D5921F8184A00D4F6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66FE6D5A21F8184A00D4F6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		66FE6D5C21F8184A00D4F6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BluryImage/BluryImage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluryImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adam.l.com.BluryImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		66FE6D5D21F8184A00D4F6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BluryImage/BluryImage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluryImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adam.l.com.BluryImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		66FE6D5F21F8184A00D4F6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluryImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adam.l.com.BluryImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluryImage.app/Contents/MacOS/BluryImage";
+			};
+			name = Debug;
+		};
+		66FE6D6021F8184A00D4F6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluryImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adam.l.com.BluryImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluryImage.app/Contents/MacOS/BluryImage";
+			};
+			name = Release;
+		};
+		66FE6D6221F8184A00D4F6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluryImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adam.l.com.BluryImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = BluryImage;
+			};
+			name = Debug;
+		};
+		66FE6D6321F8184A00D4F6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluryImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adam.l.com.BluryImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = BluryImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FE6D3021F8183B00D4F6A9 /* Build configuration list for PBXProject "BluryImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE6D5921F8184A00D4F6A9 /* Debug */,
+				66FE6D5A21F8184A00D4F6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FE6D5B21F8184A00D4F6A9 /* Build configuration list for PBXNativeTarget "BluryImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE6D5C21F8184A00D4F6A9 /* Debug */,
+				66FE6D5D21F8184A00D4F6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FE6D5E21F8184A00D4F6A9 /* Build configuration list for PBXNativeTarget "BluryImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE6D5F21F8184A00D4F6A9 /* Debug */,
+				66FE6D6021F8184A00D4F6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FE6D6121F8184A00D4F6A9 /* Build configuration list for PBXNativeTarget "BluryImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE6D6221F8184A00D4F6A9 /* Debug */,
+				66FE6D6321F8184A00D4F6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FE6D2D21F8183B00D4F6A9 /* Project object */;
+}
